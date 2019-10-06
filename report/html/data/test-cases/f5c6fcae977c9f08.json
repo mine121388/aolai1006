@@ -1,0 +1,100 @@
+{
+  "uid" : "f5c6fcae977c9f08",
+  "name" : "TestLogin.test_login[13478603122-123456-itheima0-True]",
+  "fullName" : "test_login.TestLogin.test_login[13478603122-123456-itheima0-True]",
+  "historyId" : "fb4b7d803863b29bd9f213e138fdd722",
+  "time" : {
+    "start" : 1570378556903,
+    "stop" : 1570378625956,
+    "duration" : 69053
+  },
+  "description" : "登录测试方法",
+  "descriptionHtml" : "<p>登录测试方法</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'itheima01' == 'itheima0'\n  - itheima01\n  ?         -\n  + itheima0",
+  "statusTrace" : "self = <test_login.TestLogin object at 0x0000020CDB9781D0>, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True\n\n    @allure.step(title=\"登录测试方法\")\n    @pytest.mark.parametrize(\"username,pwd,expect,succeed\", build_data())\n    def test_login(self, username, pwd, expect, succeed):\n        \"\"\"登录测试方法\"\"\"\n        self.login.page_login(username, pwd)\n        time.sleep(3)\n        if succeed:\n            try:\n                nickname = self.login.get_nickname()\n                assert nickname == expect\n            except Exception as e:\n                self.login.base_get_img()\n>               raise e\n\ncase\\test_login.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <test_login.TestLogin object at 0x0000020CDB9781D0>, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True\n\n    @allure.step(title=\"登录测试方法\")\n    @pytest.mark.parametrize(\"username,pwd,expect,succeed\", build_data())\n    def test_login(self, username, pwd, expect, succeed):\n        \"\"\"登录测试方法\"\"\"\n        self.login.page_login(username, pwd)\n        time.sleep(3)\n        if succeed:\n            try:\n                nickname = self.login.get_nickname()\n>               assert nickname == expect\nE               AssertionError: assert 'itheima01' == 'itheima0'\nE                 - itheima01\nE                 ?         -\nE                 + itheima0\n\ncase\\test_login.py:40: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'itheima01' == 'itheima0'\n  - itheima01\n  ?         -\n  + itheima0",
+    "statusTrace" : "self = <test_login.TestLogin object at 0x0000020CDB9781D0>, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True\n\n    @allure.step(title=\"登录测试方法\")\n    @pytest.mark.parametrize(\"username,pwd,expect,succeed\", build_data())\n    def test_login(self, username, pwd, expect, succeed):\n        \"\"\"登录测试方法\"\"\"\n        self.login.page_login(username, pwd)\n        time.sleep(3)\n        if succeed:\n            try:\n                nickname = self.login.get_nickname()\n                assert nickname == expect\n            except Exception as e:\n                self.login.base_get_img()\n>               raise e\n\ncase\\test_login.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <test_login.TestLogin object at 0x0000020CDB9781D0>, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True\n\n    @allure.step(title=\"登录测试方法\")\n    @pytest.mark.parametrize(\"username,pwd,expect,succeed\", build_data())\n    def test_login(self, username, pwd, expect, succeed):\n        \"\"\"登录测试方法\"\"\"\n        self.login.page_login(username, pwd)\n        time.sleep(3)\n        if succeed:\n            try:\n                nickname = self.login.get_nickname()\n>               assert nickname == expect\nE               AssertionError: assert 'itheima01' == 'itheima0'\nE                 - itheima01\nE                 ?         -\nE                 + itheima0\n\ncase\\test_login.py:40: AssertionError",
+    "steps" : [ {
+      "name" : "登录测试方法",
+      "time" : {
+        "start" : 1570378588314,
+        "stop" : 1570378625687,
+        "duration" : 37373
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_login.TestLogin object at 0x0000020CDB9781D0>, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True\n\n    @allure.step(title=\"登录测试方法\")\n    @pytest.mark.parametrize(\"username,pwd,expect,succeed\", build_data())\n    def test_login(self, username, pwd, expect, succeed):\n        \"\"\"登录测试方法\"\"\"\n        self.login.page_login(username, pwd)\n        time.sleep(3)\n        if succeed:\n            try:\n                nickname = self.login.get_nickname()\n                assert nickname == expect\n            except Exception as e:\n                self.login.base_get_img()\n>               raise e\n\ncase\\test_login.py:43: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <test_login.TestLogin object at 0x0000020CDB9781D0>, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True\n\n    @allure.step(title=\"登录测试方法\")\n    @pytest.mark.parametrize(\"username,pwd,expect,succeed\", build_data())\n    def test_login(self, username, pwd, expect, succeed):\n        \"\"\"登录测试方法\"\"\"\n        self.login.page_login(username, pwd)\n        time.sleep(3)\n        if succeed:\n            try:\n                nickname = self.login.get_nickname()\n>               assert nickname == expect\nE               AssertionError: assert 'itheima01' == 'itheima0'\nE                 - itheima01\nE                 ?         -\nE                 + itheima0\n\ncase\\test_login.py:40: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6a000bde38ad8163",
+        "name" : "失败原因: ",
+        "source" : "6a000bde38ad8163.png",
+        "type" : "image/png",
+        "size" : 160107
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "iPhone32"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_login[13478603122-123456-itheima0-True]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f5c6fcae977c9f08.json",
+  "parameterValues" : [ ]
+}

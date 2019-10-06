@@ -1,0 +1,76 @@
+{
+  "uid" : "441f94251c9b412f",
+  "name" : "TestAddress.test_delete_address",
+  "fullName" : "test_address.TestAddress.test_delete_address",
+  "historyId" : "d2da1e812a055f0cd7f3c97658acbe0f",
+  "time" : {
+    "start" : 1570378543549,
+    "stop" : 1570378552184,
+    "duration" : 8635
+  },
+  "description" : "删除地址测试方法",
+  "descriptionHtml" : "<p>删除地址测试方法</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aaeae7e0753aa589",
+      "name" : "失败原因: ",
+      "source" : "aaeae7e0753aa589.png",
+      "type" : "image/png",
+      "size" : 160107
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "iPhone32"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_address"
+  }, {
+    "name" : "testClass",
+    "value" : "test_address"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAddress.test_delete_address"
+  }, {
+    "name" : "package",
+    "value" : "test_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "441f94251c9b412f.json",
+  "parameterValues" : [ ]
+}

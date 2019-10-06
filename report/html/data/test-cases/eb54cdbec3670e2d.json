@@ -1,0 +1,76 @@
+{
+  "uid" : "eb54cdbec3670e2d",
+  "name" : "TestAddress.test_update_address[\\u675c\\u752b-13645678944-\\u6c5f\\u82cf-\\u65e0\\u9521-\\u5d07\\u5b89-\\u9ec4\\u6cb3\\u53e388\\u53f7-100000]",
+  "fullName" : "test_address.TestAddress.test_update_address[\\u675c\\u752b-13645678944-\\u6c5f\\u82cf-\\u65e0\\u9521-\\u5d07\\u5b89-\\u9ec4\\u6cb3\\u53e388\\u53f7-100000]",
+  "historyId" : "6302ed87d225c2b170ca889982b32596",
+  "time" : {
+    "start" : 1570378519535,
+    "stop" : 1570378543545,
+    "duration" : 24010
+  },
+  "description" : "更新地址测试方法",
+  "descriptionHtml" : "<p>更新地址测试方法</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec50f6c231738bda",
+      "name" : "失败原因: ",
+      "source" : "ec50f6c231738bda.png",
+      "type" : "image/png",
+      "size" : 160107
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "iPhone32"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_address"
+  }, {
+    "name" : "testClass",
+    "value" : "test_address"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAddress.test_update_address[\\u675c\\u752b-13645678944-\\u6c5f\\u82cf-\\u65e0\\u9521-\\u5d07\\u5b89-\\u9ec4\\u6cb3\\u53e388\\u53f7-100000]"
+  }, {
+    "name" : "package",
+    "value" : "test_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb54cdbec3670e2d.json",
+  "parameterValues" : [ ]
+}

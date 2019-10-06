@@ -1,0 +1,85 @@
+{
+  "uid" : "1d02fcdaed93e095",
+  "name" : "TestLogin.test_login[13478603121-123456-\\u6b64\\u7528\\u6237\\u4e0d\\u5b58\\u5728-False]",
+  "fullName" : "test_login.TestLogin.test_login[13478603121-123456-\\u6b64\\u7528\\u6237\\u4e0d\\u5b58\\u5728-False]",
+  "historyId" : "f371214a7fc9ec90a7f3ff97f392349a",
+  "time" : {
+    "start" : 1570378712586,
+    "stop" : 1570378722018,
+    "duration" : 9432
+  },
+  "description" : "登录测试方法",
+  "descriptionHtml" : "<p>登录测试方法</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "登录测试方法",
+      "time" : {
+        "start" : 1570378712597,
+        "stop" : 1570378722018,
+        "duration" : 9421
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "iPhone32"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestLogin.test_login[13478603121-123456-\\u6b64\\u7528\\u6237\\u4e0d\\u5b58\\u5728-False]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d02fcdaed93e095.json",
+  "parameterValues" : [ ]
+}

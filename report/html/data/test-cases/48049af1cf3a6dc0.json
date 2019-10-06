@@ -1,0 +1,76 @@
+{
+  "uid" : "48049af1cf3a6dc0",
+  "name" : "TestAddress.test_add_address[\\u674e\\u767d-13012345678-\\u798f\\u5efa-\\u53a6\\u95e8-\\u601d\\u660e-\\u5317\\u4e03\\u5bb6\\u9547\\u4e91\\u96c6TBD\\u4e2d\\u5fc3-123456]",
+  "fullName" : "test_address.TestAddress.test_add_address[\\u674e\\u767d-13012345678-\\u798f\\u5efa-\\u53a6\\u95e8-\\u601d\\u660e-\\u5317\\u4e03\\u5bb6\\u9547\\u4e91\\u96c6TBD\\u4e2d\\u5fc3-123456]",
+  "historyId" : "218009c95aa0c96ffa5c917550098f46",
+  "time" : {
+    "start" : 1570378455808,
+    "stop" : 1570378519515,
+    "duration" : 63707
+  },
+  "description" : "新增地址测试方法",
+  "descriptionHtml" : "<p>新增地址测试方法</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3f405ce0368d8e3d",
+      "name" : "失败原因: ",
+      "source" : "3f405ce0368d8e3d.png",
+      "type" : "image/png",
+      "size" : 160107
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "iPhone32"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11172-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_address"
+  }, {
+    "name" : "testClass",
+    "value" : "test_address"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAddress.test_add_address[\\u674e\\u767d-13012345678-\\u798f\\u5efa-\\u53a6\\u95e8-\\u601d\\u660e-\\u5317\\u4e03\\u5bb6\\u9547\\u4e91\\u96c6TBD\\u4e2d\\u5fc3-123456]"
+  }, {
+    "name" : "package",
+    "value" : "test_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48049af1cf3a6dc0.json",
+  "parameterValues" : [ ]
+}
