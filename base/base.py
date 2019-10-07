@@ -53,7 +53,7 @@ class Base:
 
     def base_get_img(self):
         """截图"""
-        self.driver.get_screenshot_as_file("../img/err.png")
+        self.driver.get_screenshot_as_file("./img/err.png")
         self.base_write_img()
 
     def base_get_text_click(self, text, num):
