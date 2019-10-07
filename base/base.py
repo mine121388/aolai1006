@@ -20,7 +20,7 @@ class Base:
     def find_elements_func(self, location, time=30, poll=0.2):
         """定为一组元素方法"""
         return WebDriverWait(self.driver, timeout=time, poll_frequency=poll).until(
-            lambda x: x.find_element(*location))
+            lambda x: x.find_elements(*location))
 
     def input_data(self, location, values):
         """输入方法"""

@@ -1,8 +1,8 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1570424978788" stop="1570425177430">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1570430264871" stop="1570430468377">
   <name>test_login</name>
   <labels/>
   <test-cases>
-    <test-case start="1570424978788" status="failed" stop="1570425047207">
+    <test-case start="1570430264871" status="failed" stop="1570430335767">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[13478603122-123456-itheima0-True]</name>
       <failure>
@@ -10,7 +10,7 @@
   - itheima01
   ?         -
   + itheima0</message>
-        <stack-trace>self = &lt;test_login.TestLogin object at 0x0000017EBD379828&gt;, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True
+        <stack-trace>self = &lt;test_login.TestLogin object at 0x0000016E020322B0&gt;, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True
 
     @allure.step(title="登录测试方法")
     @pytest.mark.parametrize("username,pwd,expect,succeed", build_data())
@@ -29,7 +29,7 @@
 case\test_login.py:43: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-self = &lt;test_login.TestLogin object at 0x0000017EBD379828&gt;, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True
+self = &lt;test_login.TestLogin object at 0x0000016E020322B0&gt;, username = '13478603122', pwd = '123456', expect = 'itheima0', succeed = True
 
     @allure.step(title="登录测试方法")
     @pytest.mark.parametrize("username,pwd,expect,succeed", build_data())
@@ -51,35 +51,35 @@ case\test_login.py:40: AssertionError</stack-trace>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425008936" status="failed" stop="1570425046749">
+        <step start="1570430297973" status="failed" stop="1570430335761">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments>
-            <attachment source="9ec10019-1d29-4ce1-8801-34a5687539c2-attachment.png" title="失败原因: " type="image/png"/>
+            <attachment source="d8e5bcd4-7654-4bde-8e43-c4dc59a4d28d-attachment.png" title="失败原因: " type="image/png"/>
           </attachments>
           <steps/>
         </step>
       </steps>
     </test-case>
-    <test-case start="1570425047217" status="passed" stop="1570425075178">
+    <test-case start="1570430335775" status="passed" stop="1570430364410">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[ 13478603122 -123456-itheima01-True]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425047220" status="passed" stop="1570425075178">
+        <step start="1570430335777" status="passed" stop="1570430364409">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments/>
@@ -87,19 +87,19 @@ case\test_login.py:40: AssertionError</stack-trace>
         </step>
       </steps>
     </test-case>
-    <test-case start="1570425075184" status="passed" stop="1570425103875">
+    <test-case start="1570430364411" status="passed" stop="1570430393205">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[itheima01-123456-itheima01-True]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425075193" status="passed" stop="1570425103875">
+        <step start="1570430364412" status="passed" stop="1570430393205">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments/>
@@ -107,19 +107,19 @@ case\test_login.py:40: AssertionError</stack-trace>
         </step>
       </steps>
     </test-case>
-    <test-case start="1570425103876" status="passed" stop="1570425132175">
+    <test-case start="1570430393209" status="passed" stop="1570430421609">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[ itheima01 -123456-itheima01-True]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425103878" status="passed" stop="1570425132174">
+        <step start="1570430393213" status="passed" stop="1570430421608">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments/>
@@ -127,19 +127,19 @@ case\test_login.py:40: AssertionError</stack-trace>
         </step>
       </steps>
     </test-case>
-    <test-case start="1570425132178" status="passed" stop="1570425141387">
+    <test-case start="1570430421613" status="passed" stop="1570430430439">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[13478603121-123456-\u6b64\u7528\u6237\u4e0d\u5b58\u5728-False]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425132184" status="passed" stop="1570425141387">
+        <step start="1570430421617" status="passed" stop="1570430430439">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments/>
@@ -147,19 +147,19 @@ case\test_login.py:40: AssertionError</stack-trace>
         </step>
       </steps>
     </test-case>
-    <test-case start="1570425141389" status="passed" stop="1570425150413">
+    <test-case start="1570430430441" status="passed" stop="1570430439447">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[134786031221-123456-\u6b64\u7528\u6237\u4e0d\u5b58\u5728-False]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425141391" status="passed" stop="1570425150413">
+        <step start="1570430430443" status="passed" stop="1570430439446">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments/>
@@ -167,19 +167,19 @@ case\test_login.py:40: AssertionError</stack-trace>
         </step>
       </steps>
     </test-case>
-    <test-case start="1570425150415" status="passed" stop="1570425159472">
+    <test-case start="1570430439448" status="passed" stop="1570430448274">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[13478603122-1234567-\u767b\u5f55\u5bc6\u7801\u9519\u8bef-False]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425150416" status="passed" stop="1570425159471">
+        <step start="1570430439449" status="passed" stop="1570430448273">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments/>
@@ -187,19 +187,19 @@ case\test_login.py:40: AssertionError</stack-trace>
         </step>
       </steps>
     </test-case>
-    <test-case start="1570425159473" status="passed" stop="1570425168523">
+    <test-case start="1570430448275" status="passed" stop="1570430458024">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[itheima011-123456-\u6b64\u7528\u6237\u4e0d\u5b58\u5728-False]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425159475" status="passed" stop="1570425168523">
+        <step start="1570430448277" status="passed" stop="1570430458024">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments/>
@@ -207,19 +207,19 @@ case\test_login.py:40: AssertionError</stack-trace>
         </step>
       </steps>
     </test-case>
-    <test-case start="1570425168524" status="passed" stop="1570425177430">
+    <test-case start="1570430458026" status="passed" stop="1570430468377">
       <description>登录测试方法</description>
       <name>TestLogin.test_login[itheima01-1234567-\u767b\u5f55\u5bc6\u7801\u9519\u8bef-False]</name>
       <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="16280-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps>
-        <step start="1570425168526" status="passed" stop="1570425177430">
+        <step start="1570430458027" status="passed" stop="1570430468377">
           <name>登录测试方法</name>
           <title>登录测试方法</title>
           <attachments/>

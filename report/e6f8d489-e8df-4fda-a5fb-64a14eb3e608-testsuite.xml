@@ -1,0 +1,84 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1570430165883" stop="1570430260158">
+  <name>test_address</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1570430165883" status="passed" stop="1570430228948">
+      <description>新增地址测试方法</description>
+      <name>TestAddress.test01_add_address[\u674e\u767d-13012345678-\u798f\u5efa-\u53a6\u95e8-\u601d\u660e-\u5317\u4e03\u5bb6\u9547\u4e91\u96c6TBD\u4e2d\u5fc3-123456]</name>
+      <attachments>
+        <attachment source="c198bf3f-e619-49cb-bd59-8caafd24e378-attachment.png" title="失败原因: " type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16280-MainThread"/>
+        <label name="host" value="iPhone32"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1570430228952" status="failed" stop="1570430251604">
+      <description>更新地址测试方法</description>
+      <name>TestAddress.test02_update_address[\u675c\u752b-13645678944-\u6c5f\u82cf-\u65e0\u9521-\u5d07\u5b89-\u9ec4\u6cb3\u53e388\u53f7-100000]</name>
+      <failure>
+        <message>TypeError: 'WebElement' object is not iterable</message>
+        <stack-trace>self = &lt;test_address.TestAddress object at 0x0000016E031773C8&gt;, receipt = '杜甫', phone = '13645678944', pro = '江苏', city = '无锡', area = '崇安'
+addr = '黄河口88号', postcode = '100000'
+
+    @pytest.mark.parametrize("receipt, phone, pro, city, area, addr, postcode", build_data("address_update"))
+    def test02_update_address(self, receipt, phone, pro, city, area, addr, postcode):
+        """更新地址测试方法"""
+        self.address.page_update_address(receipt, phone, pro, city, area, addr, postcode)
+        try:
+            expect = receipt + " " + phone
+            assert expect in self.address.whether_add_address()
+        except Exception as e:
+            self.address.base_get_img()
+&gt;           raise e
+
+case\test_address.py:53: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+case\test_address.py:50: in test02_update_address
+    assert expect in self.address.whether_add_address()
+page\address_page.py:68: in whether_add_address
+    self.base_get_text(page.address_receipt_name_phone)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;page.address_page.AddressPage object at 0x0000016E03197470&gt;, loc = ('id', 'com.yunmall.lc:id/receipt_name')
+
+    def base_get_text(self, loc):
+        """获取一组元素的文本方法"""
+&gt;       return [el.text for el in self.find_elements_func(loc)]
+E       TypeError: 'WebElement' object is not iterable
+
+base\base.py:71: TypeError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="c1a40c19-f96f-4ab7-bbc1-fc219230dc61-attachment.png" title="失败原因: " type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16280-MainThread"/>
+        <label name="host" value="iPhone32"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1570430251607" status="passed" stop="1570430260158">
+      <description>删除地址测试方法</description>
+      <name>TestAddress.test03_delete_address</name>
+      <attachments>
+        <attachment source="60112e26-8edb-4d62-84e7-595df2fd9907-attachment.png" title="失败原因: " type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16280-MainThread"/>
+        <label name="host" value="iPhone32"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

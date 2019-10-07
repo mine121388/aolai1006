@@ -65,7 +65,7 @@ class AddressPage(Base):
 
     def whether_add_address(self):
         """是否新增地址"""
-        self.base_get_text(page.address_receipt_name_phone)
+        return self.base_get_text(page.address_receipt_name_phone)
 
     def page_go_add_address(self):
         """进入地址管理"""

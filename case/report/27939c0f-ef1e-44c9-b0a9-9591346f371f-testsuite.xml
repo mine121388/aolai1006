@@ -1,46 +1,42 @@
-<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1570424871178" stop="1570424974098">
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1570433523697" stop="1570433608134">
   <name>test_address</name>
   <labels/>
   <test-cases>
-    <test-case start="1570424871178" status="passed" stop="1570424940893">
+    <test-case start="1570433523697" status="passed" stop="1570433581382">
       <description>新增地址测试方法</description>
       <name>TestAddress.test01_add_address[\u674e\u767d-13012345678-\u798f\u5efa-\u53a6\u95e8-\u601d\u660e-\u5317\u4e03\u5bb6\u9547\u4e91\u96c6TBD\u4e2d\u5fc3-123456]</name>
-      <attachments>
-        <attachment source="0fb8b0f3-d051-4ab4-8b09-9944e603bf17-attachment.png" title="失败原因: " type="image/png"/>
-      </attachments>
+      <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="1648-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1570424940896" status="passed" stop="1570424964895">
+    <test-case start="1570433581385" status="passed" stop="1570433598378">
       <description>更新地址测试方法</description>
       <name>TestAddress.test02_update_address[\u675c\u752b-13645678944-\u6c5f\u82cf-\u65e0\u9521-\u5d07\u5b89-\u9ec4\u6cb3\u53e388\u53f7-100000]</name>
-      <attachments>
-        <attachment source="2dfdaac1-02dd-407f-8c51-bb89557c1ed4-attachment.png" title="失败原因: " type="image/png"/>
-      </attachments>
+      <attachments/>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="1648-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
       </labels>
       <steps/>
     </test-case>
-    <test-case start="1570424964898" status="passed" stop="1570424974098">
+    <test-case start="1570433598379" status="passed" stop="1570433608134">
       <description>删除地址测试方法</description>
       <name>TestAddress.test03_delete_address</name>
       <attachments>
-        <attachment source="6471070c-1083-4b6a-90f1-b59bf8343084-attachment.png" title="失败原因: " type="image/png"/>
+        <attachment source="9c981f9c-827e-4e1b-a50f-0760357964bf-attachment.png" title="失败原因: " type="image/png"/>
       </attachments>
       <labels>
         <label name="severity" value="normal"/>
-        <label name="thread" value="3652-MainThread"/>
+        <label name="thread" value="1648-MainThread"/>
         <label name="host" value="iPhone32"/>
         <label name="framework" value="pytest"/>
         <label name="language" value="cpython3"/>
