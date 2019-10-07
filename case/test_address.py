@@ -48,8 +48,9 @@ class TestAddress:
         try:
             expect = receipt + " " + phone
             assert expect in self.address.whether_add_address()
-        except:
+        except Exception as e:
             self.address.base_get_img()
+            raise e
 
     def test03_delete_address(self):
         """删除地址测试方法"""
